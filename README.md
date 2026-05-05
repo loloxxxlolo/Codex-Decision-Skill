@@ -125,13 +125,13 @@ memory/
 在 Codex 里提问时，可以直接说：
 
 ```text
-使用 decision-skill，帮我判断这个项目要不要继续。
+@decision-skill，帮我判断这个项目要不要继续。
 ```
 
 或：
 
 ```text
-使用 decision-skill，把这次结论写入长期记忆。
+@decision-skill，把这次结论写入长期记忆。
 ```
 
 ### 4. 推荐使用方式
