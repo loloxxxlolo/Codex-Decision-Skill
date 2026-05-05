@@ -117,6 +117,140 @@ Use decision-skill and write this conclusion into long-term memory.
 - Use one file per long-term project.
 - Write back only stable conclusions, not full chat logs.
 
+## Examples
+
+The following examples are anonymized from real workflows. They keep the decision structure but remove personal identity, exact locations, accounts, income details, and private relationships.
+
+### Example 1: Publishing a Codex skill
+
+User question:
+
+```text
+I built a Codex skill. Should I publish it to GitHub, or will it become extra work?
+```
+
+The skill should recover context first:
+
+- The current phase should not turn new projects into high-pressure work.
+- The skill already has a minimal working loop.
+- The main value of publishing is clarification, reuse, and public proof of work, not immediate traffic.
+
+Suggested answer:
+
+```text
+Publish it, but only as a v0.1 minimal public version.
+Limit the scope to README files, SKILL files, templates, and a few examples.
+Do not build a website, video course, complex installer, or open-source operation plan yet.
+```
+
+Possible memory write-back:
+
+```md
+- The decision skill can be published to GitHub as a v0.1 minimal public version.
+- The goal is clarification, reuse, and public proof of work, not full open-source operations.
+```
+
+### Example 2: Adding summaries to a mobile recording app
+
+User question:
+
+```text
+My recording app can already capture daily life manually. Should I add a summary feature next?
+```
+
+The skill should recover context first:
+
+- The core of a recording app is fast capture.
+- The basic recording loop already works.
+- It is too early to build a complex cloud aggregation system.
+
+Suggested answer:
+
+```text
+Add summaries, but start with gentle life summaries and weekly/monthly reviews.
+Do not start with complex reports, annual summaries, or cloud aggregation.
+```
+
+Possible decision criteria:
+
+```md
+Upgrade:
+- The feature turns existing records into gentle life summaries.
+- The feature improves review value, such as weekly/monthly reviews or favorites.
+
+Pause:
+- The feature slows down capture.
+- The local recording loop is not stable enough for complex AI aggregation.
+```
+
+### Example 3: Paid promotion for a content project
+
+User question:
+
+```text
+A niche content account is just starting. Should I run paid promotion? How much should I spend, and what should I measure?
+```
+
+The skill should recover context first:
+
+- The account is still in early validation.
+- The user should not act like an investor or boss too early.
+- Content direction and collaboration stability need to be validated first.
+
+Suggested answer:
+
+```text
+Run a small test, but the goal is not to buy views.
+Use paid promotion to validate topics and real demand.
+Look at saves, comments, messages, and conversion signals, not only impressions.
+```
+
+Possible decision criteria:
+
+```md
+Continue:
+- Small paid tests produce real demand signals.
+- 1-2 topics are clearly worth further testing.
+
+Do not upgrade spending:
+- Do not increase budget before validating stable topics.
+- Do not increase responsibility before validating stable collaboration.
+```
+
+### Example 4: Long travel versus life rhythm
+
+User question:
+
+```text
+Should I keep working for a few more months to build a buffer, or start long-term travel now?
+```
+
+The skill should recover context first:
+
+- The current phase is about building buffer and recovering life rhythm.
+- Long travel should not become a way to avoid real decisions.
+- Short trips can be used as a transition.
+
+Suggested answer:
+
+```text
+Keep the work-and-recovery rhythm for now.
+Short trips are fine, but start long travel only when cash, energy, and handover are all under control.
+```
+
+Possible decision criteria:
+
+```md
+Continue long travel:
+- Cash, life rhythm, and handover are all under control.
+
+Downgrade to short or segmented trips:
+- Energy is average, but the user still wants some travel experience.
+
+Pause travel:
+- Budget is not enough, or travel is becoming a way to avoid real problems.
+```
+
 ## v0.1 Scope
 
 The first version only aims to close one loop:
