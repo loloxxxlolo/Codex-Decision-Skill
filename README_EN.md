@@ -54,6 +54,7 @@ memory/
 ## Files
 
 - `SKILL.md`: the main Codex skill file.
+- `SKILL.zh-CN.md`: simplified Chinese version of the skill.
 - `README.md`: Chinese README.
 - `templates/`: memory templates.
 - `examples/`: practical examples.
@@ -68,7 +69,11 @@ codex-decision-skill
 
 ### 1. Install the skill
 
-Copy `SKILL.md` into your Codex skills directory, for example:
+Copy `SKILL.md` into your Codex skills directory.
+
+If you mainly use Chinese, copy `SKILL.zh-CN.md` and rename it to `SKILL.md`.
+
+Example path:
 
 ```text
 ~/.codex/skills/decision-skill/SKILL.md

@@ -71,6 +71,7 @@ codex-decision-skill
 ## 文件说明
 
 - `SKILL.md`：Codex skill 主文件。
+- `SKILL.zh-CN.md`：中文精简版 skill 文件。
 - `README_EN.md`：英文说明。
 - `templates/`：短期记忆、长期项目、当前决策看板模板。
 - `examples/`：旅行决策、项目取舍、记忆写回案例。
@@ -81,7 +82,9 @@ codex-decision-skill
 
 ### 1. 安装 skill
 
-把本仓库的 `SKILL.md` 复制到你的 Codex skill 目录，例如：
+如果你主要用英文或想用更通用版本，复制 `SKILL.md` 到你的 Codex skill 目录。
+
+如果你主要用中文，建议复制 `SKILL.zh-CN.md`，并重命名为 `SKILL.md`：
 
 ```text
 ~/.codex/skills/decision-skill/SKILL.md
