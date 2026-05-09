@@ -1,8 +1,12 @@
 # Codex Decision Skill
 
-A lightweight decision-memory skill for Codex or AI assistants.
+The reason I created this skill is simple: I am someone who easily gets stuck overthinking and repeatedly struggling with the same questions. Many times, I had already thought a problem through and reached a conclusion, but after some time, I would forget it and start asking, thinking, and struggling all over again.
 
-It is not meant to be a universal life database. Its purpose is to help the assistant recover previous conclusions before discussing recurring decisions, so the same issue does not restart from zero every time.
+So I wanted AI to help me record the things that had already been discussed clearly. The next time I ask a similar question, it can directly refer to the past conclusion, remind me how I made the decision at that time, and tell me what I should do now.
+
+Later, I found that it is not only useful for decision support. As long as enough long-term background is recorded, it can also help me make plans, review projects, organize next steps, and reduce the effort of repeatedly trying to remember everything again.
+
+Especially for someone like me, who easily forgets things over time and finds it painful to review everything from scratch, this skill really helps reduce a lot of unnecessary mental friction.
 
 ## What It Helps With
 
